@@ -21,7 +21,7 @@ class SiriProxy::Plugin::Twitter < SiriProxy::Plugin
     object = SiriAddViews.new
     object.make_root(last_ref_id)
     answer = SiriAnswer.new("Tweet", [
-      SiriAnswerLine.new('logo','http://cl.ly/3l241639371R2E39053D/content'),
+      SiriAnswerLine.new('logo','http://cl.ly/173M07341P133q180h3j/content'),
       SiriAnswerLine.new(tweetText)
     ])
     object.views << SiriAnswerSnippet.new([answer])
